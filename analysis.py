@@ -9,12 +9,11 @@ data = pd.read_csv('sleep-data.csv')
 data['startTime'] = pd.to_datetime(data['startTimeNanos'], unit='ns')
 data['endTime'] = pd.to_datetime(data['endTimeNanos'], unit='ns')
 
-# Select the columns you need
+# Select the columns you need and filter by date
 selected_columns = ['fitValue/0/value/intVal', 'dataTypeName', 'startTime', 'endTime']
 selected_data = data[selected_columns]
-
-# Filter by dataTypeName
 selected_data = selected_data[selected_data['dataTypeName'] == 'com.google.sleep.segment']
+selected_data = selected_data[selected_data['startTime'] >= '2021-04-01']
 
 # Rename the columns
 selected_data.columns = ['sleep_stage', 'data_type', 'start_time', 'end_time']
