@@ -17,9 +17,16 @@ To conduct the analysis, I first downloaded my sleep data from Google Fit online
 
 The four graphs used to analyze my sleep data are explained below:
 
+![](graphs/sleep-duration-over-time.png)
 1. Line plot: Sleep duration over time - This plot shows the trend of my sleep duration over time. It allows me to identify any long-term trends in my sleep patterns, such as changes in sleep duration over different seasons.
+
+![](graphs/sleep-duration-by-day.png)
 2. Box plot: Sleep duration by day - This plot shows the distribution of my sleep duration by day of the week. It allows me to identify any consistent patterns in my sleep duration, such as sleeping more on weekends.
+
+![](graphs/distribution-of-sleep-duration.png)
 3. Histogram: Sleep duration - This plot shows the frequency of different sleep durations. It allows me to identify the most common sleep duration and the distribution of sleep duration data.
+
+![](graphs/sleep-duration-and-bedtime.png)
 4. Scatter plot: Bedtime vs. sleep duration - This plot shows the relationship between bedtime and sleep duration. It allows me to identify any correlation between bedtime and sleep duration.
 
 ## Findings
