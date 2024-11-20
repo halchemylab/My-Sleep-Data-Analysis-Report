@@ -26,9 +26,6 @@ The four graphs used to analyze my sleep data are explained below:
 ![](graphs/distribution-of-sleep-duration.png)
 3. Histogram: Sleep duration - This plot shows the frequency of different sleep durations. It allows me to identify the most common sleep duration and the distribution of sleep duration data.
 
-![](graphs/sleep-duration-and-bedtime.png)
-4. Scatter plot: Bedtime vs. sleep duration - This plot shows the relationship between bedtime and sleep duration. It allows me to identify any correlation between bedtime and sleep duration.
-
 ## Findings
 
 Based on the observations from the different graphs, it appears that I generally get between 4-8 hours of sleep per night, with occasional outliers where I sleep for longer periods of time. There is a consistent pattern of getting more sleep on Saturdays, with Sunday and Thursday also being relatively consistent days for sleep. The distribution of sleep durations appears to be negatively skewed, with the highest count of sleep durations at 8 hours, followed by 6 hours, 2 hours, and 11 hours. There is no clear correlation between bedtime and sleep duration, as indicated by the scatter plot.
