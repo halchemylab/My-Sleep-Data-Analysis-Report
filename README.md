@@ -7,7 +7,6 @@ For this project, I downloaded my sleep data from Google Fit online and used the
 - Line plot: Sleep duration over time
 - Box plot: Sleep duration by day
 - Histogram: Sleep duration
-- Scatter plot: Bedtime vs. sleep duration
 
 In this report, I will present my findings and discuss any external factors that may be affecting my sleep patterns.
 
